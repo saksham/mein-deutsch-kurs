@@ -1,0 +1,218 @@
+h2,h3, h4, h5 {
+    color: #2288bb;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+h5 {
+  margin: 10px 0 10px 0;
+}
+
+.title-desc{
+   text-align: center;
+   font-size: 0.8em;
+   margin: 5px 100px 0 100px;
+}
+
+span.german-text, span.deutsch {
+   font-weight: bold;
+}
+
+.blank {
+   font-weight: normal;
+   text-decoration: underline;
+   cursor: pointer;
+   font-style: italic;
+}
+.blankHidden {
+  color: #ffffff;
+  border-bottom: 1px solid #000000;
+  padding: 0 5px 0 px;
+}
+      
+.blankShown {
+  color: #000000;
+  border: none !important;
+}
+.clickable {
+ cursor: pointer;
+}   
+thead {
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+th {
+  background-color: #6495ed;
+  color: #ffffff;
+}
+
+table {
+  border: 1px solid #6495ed;
+  padding: 2px;
+  margin: 5px;
+}
+
+tr.highlighted, td.highlighted {
+  background-color: #f0fff0;
+}
+
+caption {
+  text-decoration: underline;
+  font-style: italic;
+  padding: 5px;
+}
+
+td, th {
+   border-bottom: 1px dotted #f0f8ff;
+}
+
+td { 
+  padding: 5px;
+}
+
+.important {
+  border: 2px solid #ff4500;
+  padding: 5px;
+  margin: 5px;
+}
+
+.important .warning, .important .note {
+  font-weight: bold;
+  text-align: center;
+}
+
+.important .warning {
+  color: #ffa500;
+}
+
+.important .note {
+   color: #006400;
+}
+
+.collapsible .expandedHeader {
+  background: url(../images/collapse.gif) 0 0 no-repeat;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.collapsible .collapsedHeader {
+  background: url(../images/expand.gif) 0 0 no-repeat;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.wrong { text-decoration: line-through; }
+.correct { color: #ff4500; font-weight: bold; }
+.letter { border: 1px solid #bcbcbb; padding: 0 10px 0 10px; background: url(http://lh5.ggpht.com/_Csm0pCyqmGc/TER_QtQKnwI/AAAAAAAADls/NuyKl7cM5D8/evolution-mail.jpg) 100% 0% no-repeat;}
+.letter .date { text-align: right; }
+.showMeaning { 
+background: url(../images/Screen%20shot%202011-05-12%20at%203.32.36%20AM%20%282%29.jpg) 0 0 no-repeat;
+padding: 5px;
+padding-left: 50px;
+cursor: pointer;text-decoration: underline;
+}
+.eng-on-hover {
+  cursor: help;
+  background: #f5f5dc;
+}
+.columns-wrapper {
+  position:relative;
+}
+.columns {
+}
+
+.left-col {
+  width: 45%;
+  margin-right: 5px;
+  float:left;
+}
+
+.right-col {
+  width: 45%;
+  margin-left: 5px;
+  float:left;
+}
+.clr { clear: both; }
+p.news:first-letter {
+  font-size: 2em;
+}
+.article-label {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.5em;
+  display: box;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.comment-in-post {
+ border: 1px solid #eeeeee;
+ color: #888888;
+ padding: 5px;
+ font-size: 0.8em;
+}
+.exercise-description {
+  color: #006400;
+  font-style: italic;
+}
+.exercise-section{
+  margin-top: 10px;
+  margin-left: 20px;
+  border-top: 2px solid #006400;
+}
+.hint {
+  font-size: 0.9em;
+  font-style: italic;
+  border: 1px solid #afafaf;
+  padding: 2px;
+  margin: 2px 5px 2px 5px;
+  display: inline-block;
+  clear: none;
+}
+.ulined, .ulined-it {
+  border-bottom: 1px gray dashed;
+}
+.ulined-it {
+  font-style: italic;
+}
+
+.disclaimer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #808080;
+}
+
+.center {
+  text-align: center;
+}
+
+.sp-male1 {
+  background: #f8f8ff url(https://lh4.googleusercontent.com/-r_M95WHIvZs/Upe3aisTPtI/AAAAAAAAIKY/iucoHvekOAE/w25-h30-no/male1.png) 00 0 no-repeat;
+  padding: 2px 0 2px 28px;
+  margin: 3px 0 3px 3px;
+}
+
+.sp-male2 {
+  background: #F5F5F5	url(https://lh3.googleusercontent.com/-C9CXoKbJOTw/Upe3bNPe3mI/AAAAAAAAIKo/tQ8TMo7kfB0/w23-h29-no/male2.png) 00 0 no-repeat;
+  padding: 2px 0 2px 28px;
+  margin: 3px 0 3px 3px;
+  color: #4476ca;
+}
+
+.sp-female1 {
+  background: #FFf0f5 url(https://lh4.googleusercontent.com/-kZxJJFdpysQ/Upe3anDTmmI/AAAAAAAAIKg/Qr5Iu3N9WUM/w25-h30-no/female1.png) 00 0 no-repeat;
+  padding: 2px 0 2px 28px;
+  margin: 3px 0 3px 3px;
+  color: #a52a2a;
+}
+
+.sp-female2 {
+  background: #f0f8ff url(https://lh3.googleusercontent.com/-WEIyxb7fK3M/Upe3agb2CfI/AAAAAAAAIKc/LS-wzjrJqTM/w26-h31-no/female2.png) 00 0 no-repeat;
+  padding: 2px 0 2px 28px;
+  margin: 3px 0 3px 3px;
+  color: #703299;
+}
